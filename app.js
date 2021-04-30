@@ -140,8 +140,17 @@ function ValidateForm() {
         return x.replace(/^\s+|\s+$/gm,'');
     }
 
+    // localStorage.setItem("FirstName", fname);
+    // localStorage.setItem("LastName", lname);
+    // localStorage.setItem("City", address1);
+    // localStorage.setItem("Country", address2);
+    // localStorage.setItem("Phone Number", phonenumber);
+    // localStorage.setItem("Alternate Number", alternatenumber);
+    // localStorage.setItem("Date Of Birth", dateofbirth);
+    // localStorage.setItem("Gender", gender);
 
     document.getElementById("tblbody").innerHTML += '<tr><td>' + fname + '</td> <td>' + lname + '</td> <td>' + address1 + '</td> <td>' + address2 + '</td> <td>' + dateofbirth + '</td></tr>';
+
 
 
 }           
