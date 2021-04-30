@@ -140,6 +140,7 @@ function ValidateForm() {
         return x.replace(/^\s+|\s+$/gm,'');
     }
             
+    // ------------------------------------------------ x This Part Is Under Testing x ------------------------------------------------
     // localStorage.setItem("FirstName", fname);
     // localStorage.setItem("LastName", lname);
     // localStorage.setItem("City", address1);
@@ -148,7 +149,8 @@ function ValidateForm() {
     // localStorage.setItem("Alternate Number", alternatenumber);
     // localStorage.setItem("Date Of Birth", dateofbirth);
     // localStorage.setItem("Gender", gender);
-
+    // ------------------------------------------------ x Do Not Edit x ------------------------------------------------
+    
     document.getElementById("tblbody").innerHTML += '<tr><td>' + fname + '</td> <td>' + lname + '</td> <td>' + address1 + '</td> <td>' + address2 + '</td> <td>' + dateofbirth + '</td></tr>';
 
 
