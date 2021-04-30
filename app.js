@@ -149,7 +149,7 @@ function ValidateForm() {
     // localStorage.setItem("Alternate Number", alternatenumber);
     // localStorage.setItem("Date Of Birth", dateofbirth);
     // localStorage.setItem("Gender", gender);
-    // ------------------------------------------------ x Do Not Edit x ------------------------------------------------
+    // ------------------------------------------------ x Do Not Edit x ------------------------------------------------ 
     
     document.getElementById("tblbody").innerHTML += '<tr><td>' + fname + '</td> <td>' + lname + '</td> <td>' + address1 + '</td> <td>' + address2 + '</td> <td>' + dateofbirth + '</td></tr>';
 
