@@ -139,4 +139,9 @@ function ValidateForm() {
     function myTrim(x) {
         return x.replace(/^\s+|\s+$/gm,'');
     }
+
+
+    document.getElementById("tblbody").innerHTML += '<tr><td>' + fname + '</td> <td>' + lname + '</td> <td>' + address1 + '</td> <td>' + address2 + '</td> <td>' + dateofbirth + '</td></tr>';
+
+
 }           
